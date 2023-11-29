@@ -31,7 +31,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
         elseif string.match(game:HttpGet("https://inventory.roblox.com/v1/users/" .. playnl.UserId .. "/items/GamePass/" .. id2), id2) then
             print(playr..' has perm in BC')
         else 
-        print('Perm', playr..' does not have Perm')
+        print(playr..' does not have Perm')
         end
     end
 
@@ -51,7 +51,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
         elseif string.match(game:HttpGet("https://inventory.roblox.com/v1/users/" .. playnl.UserId .. "/items/GamePass/" .. id4), id4) then
             print(playr..' has persons in BC')
         else 
-        print('Perm', playr..' does not have Persons')
+        print(playr..' does not have Persons')
         end
     end
         
