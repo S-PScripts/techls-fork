@@ -1,4 +1,4 @@
-MS_WATERMARK("Type _cmds for a list of commands. Edit the table above. Also remove this line and the script should work")
+print("Type _cmds for a list of commands.")
 
 --[[
 Slock Version 1.2
