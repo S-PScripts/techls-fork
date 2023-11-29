@@ -93,12 +93,13 @@ end)
 --// Gamepass checker \\--
 
 local passid = 66254 or 64354
+
 if shared.gpcheck == true then
     if string.match(game:HttpGet("https://inventory.roblox.com/v1/users/" .. userId .. "/items/GamePass/" .. passid), passid) then
         print("Perm found")
         gamepassperm = true
         perm = false 
-        print("Fake perm for those that didn't buy the gamepass. It's pointless if you do have it unless the API has an outage")
+        print("Note that perm would be pointless if it were to have an API outage (as it did for a year once).")
     else
         print("Perm not found. Enabling pad grabber")
         perm = true
@@ -109,9 +110,11 @@ end
 for i = 1, 103 do
     game.Players:Chat("gear all 253519495")
 end
+
 task.delay(Intensity, function()
     on = false
 end)
+
 while on do 
     task.wait()
     game.Players:Chat("gear all 253519495")
