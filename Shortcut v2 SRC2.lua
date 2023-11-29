@@ -3,7 +3,7 @@ getgenv().autoexecute = true
 
 if autoexecute then
     queueteleport([[
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Tech-187/Lua-scripts/main/Shortcut__v2_src2.lua'),true))()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/S-PScripts/techls-fork/main/Shortcut%20v2%20SRC2.lua'),true))()
     ]])
 end
 
