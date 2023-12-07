@@ -1,12 +1,11 @@
 local GetName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
 local player = game.Players.LocalPlayer
 local webhookcheck =
-    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or --[[ syn and "Synapse X"  or]]
     secure_load and "Sentinel" or
     KRNL_LOADED and "Krnl/OxygenU" or
-    getexecutorname() and "Scriptware" or
-    fluxus.request() and "Fluxus" or
-    "Most likely jjsploit laugh at this clown"
+  --[[  getexecutorname() and "Scriptware" or]]
+    fluxus.request() and "Fluxus"
 
 print(webhookcheck)
 local url = "https://discord.com/api/webhooks/938849487613480960/-Ymr85W76zxDHpsh0lhYYgF7opbCjHT0rEAdu1wmwo55_z4sJ5QC2eDW_QV1rWxnxtVd" -- Replace this with your webhook. I DO NOT recommend discord webhooks because they can be sniffed anyway. Use websec (discord bot to secure webhooks) or host a webserver otherwise
