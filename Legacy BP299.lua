@@ -2,28 +2,6 @@
 
 repeat task.wait() until game:IsLoaded()
 
---[[
-    So you may be wondering what the whole point of this script is.
-    You may already know that KAH has two gamepasses. We got Perm Admin which is by far the most purchased gamepass of KAH
-    and then we got Person299's admin which is arguably considered a letdown for a huge majority of the playerbase.
-
-    Most people have bought both gamepasses which just gives you a few extra commands but not everyone wants to buy both
-    Some just want either one of the two, either Perm or Persons. 
-    
-    I bought just Person299's Admin on one of my accounts and it just doesn't feel that useful at all, 
-    since a lot of the commands that could make it obsolete perm are just not present.
-
-    This mod is there for just the few amount of people that bought just Person299's Admin, 
-    but of course you can use it without the gamepass if you like some of the FE functions that the script comes with.
-
-    This script/mod is completely open source and you can use anything in your own script if you like, 
-    though credit would be appreciated ;)
-
-
-    Type "cmds" (no prefix) after running this script. It's recommended to put this in autoexec. (This script is literally made for autoexec) 
-    This script should be compatible with all other scripts. Just please check for updates on the github page (https://github.com/Tech-187/Lua-scripts/blob/main/BetterPerson299.lua)
-]]
-
 local uniquemodstring = "BetterPerson299Command" -- Change this to whatever, just don't add any spaces or it may break the commands
 local antilog = string.rep("0", 32)
 local lplayer = game.Players.LocalPlayer
