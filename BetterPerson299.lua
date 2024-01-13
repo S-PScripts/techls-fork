@@ -12,7 +12,7 @@ local lplayer = game.Players.LocalPlayer
 local userId = game.Players.LocalPlayer.UserId
 local connections = {} -- If you're gonna alter the script then please add any connections that you add to a table so it can be closed with the !closemod command
 local gearcons = {}
-local BlacklistedGear = {"VampireVanquisher","IvoryPeriastron","PaintBucket","SubspaceTripmine","Transmorpher","LaserFingerPointers","SeaThemedCrossbow","RageTable","IceStaff","BlackHoleSword","ViridianThrowingKnives"} -- You can find the tool names using this script https://raw.githubusercontent.com/Tech-187/Lua-scripts/main/Inventory%20tool%20checker
+local BlacklistedGear = {"VampireVanquisher","IvoryPeriastron","PaintBucket","SubspaceTripmine","Transmorpher","LaserFingerPointers","SeaThemedCrossbow","RageTable","IceStaff","BlackHoleSword","ViridianThrowingKnives"} -- You can find the tool names using this script https://github.com/S-PScripts/techls-fork/blob/main/Inventory%20tool%20checker.lua
 getgenv().gearwhitelisted = {"Master0fSouIs","ScaleneSoap9803","t_echr","Humangas","ovicaI","Ba_lIon","naomicaesar","jjjuuikjjikkju","SoaringLys","Di33le2"} -- Players that are in this table won't get ungeared by default.
 local mousee = game.Players.LocalPlayer:GetMouse()
 local queueteleport = syn and syn.queue_on_teleport or queue_on_teleport or fluxus and fluxus.queue_on_teleport or function() end
@@ -648,7 +648,7 @@ connections[#connections + 1] = lplayer.Chatted:Connect(function(msg)
         local mesg = string.sub(msg, 16)
             writefile('letters.txt', mesg) 
     elseif string.sub(msg, 0, 15) == "!showunfiltered" then 
-            loadstring(game:HttpGet(('https://raw.githubusercontent.com/Tech-187/Lua-scripts/main/h%20chat%20bypasser'),true))() -- This script wasn't meant to be for BP299 at first.
+            loadstring(game:HttpGet(('https://raw.githubusercontent.com/S-PScripts/techls-fork/main/H%20Chat%20Bypasser.lua'),true))() -- This script wasn't meant to be for BP299 at first.
     elseif string.sub(msg, 0, 13) == "!csunfiltered" then 
             pcall(function()
                 local file = readfile("letters.txt")
@@ -670,7 +670,7 @@ connections[#connections + 1] = lplayer.Chatted:Connect(function(msg)
             setclipboard("https://raw.githubusercontent.com/Tech-187/Obfuscated-art/main/Shieldkickhop")
     elseif string.sub(msg, 0, 3) == "emr" then -- Emergency mode. Lag everyone without Perm/admin as long as you have persons
             --logn("Press C (keybind) and zoom out cus it will lag")
-            loadstring(game:HttpGet(('https://raw.githubusercontent.com/Tech-187/Lua-scripts/main/NoAdmin%20Lagger%20v2.3P'),true))()
+            loadstring(game:HttpGet(('https://raw.githubusercontent.com/S-PScripts/techls-fork/main/NoAdmin%20Lagger%20v2.3P.lua'),true))()
             chatt("!admin");wait(.35)
             chatt("blind/others");wait(.65)
             for i = 1, 99 do
