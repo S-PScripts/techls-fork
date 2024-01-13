@@ -1024,7 +1024,7 @@ connections[#connections + 1] = lplayer.Chatted:Connect(function(msg)
             chatt("respawn/me")
             shared.p2p = true
 		wait(2.5)
-        loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tech-187/Lua-scripts/main/FindVerticalRegen"), true))()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/S-PScripts/techls-fork/main/FindVerticalRegen.lua"), true))()
     end
     elseif string.sub(msg:lower(), 0, 4) == "!rej" or string.sub(msg:lower(), 0, 3) == "!rj" then
         game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer);wait()
