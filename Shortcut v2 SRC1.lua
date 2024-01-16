@@ -1,26 +1,4 @@
---[[
-    Credits
-
-    Tech (Tech) - Most of this entire script after everything
-    Mia (miia;) - The entire start of v2 along with Tech
-    Laamy (yeemi) - Part of v2 and the entirety of v1
-    whatjg (whatjggotdeleted) - Additional commands
-
-    And a few FE scripts from google may have been used iirc
-
-
-
-    The code is extremely messy, 
-    because #1 it's a KAH script so I can't be bothered to make it clean 
-    and #2 This script wasn't supposed to be going open source at first lol
-    and ofc I had only 1 month of scripting experience at the time most of this was made (before release)
-
-    Some commands are taken out due to v2 having a premium variant back in the day
-
-    Every start-up loadstring has been removed so some things completely broke because of that. Don't use this as an example of how I code nowadays
-    Use the obfuscated version for the intended experience (hence why the first line has to be removed, 
-    it more or less serves as an are you sure you want to use this version warning)
-]]
+-- Shortcut v2. Check original repo for credits.
 
 game:GetService("Workspace").FallenPartsDestroyHeight = -math.huge 
 
