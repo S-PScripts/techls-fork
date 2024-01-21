@@ -46,11 +46,11 @@ if pc1 and not pc2 then
             padAbuse = true
             wait(.35)
             for i = 1, 40 do
-                chet(":punish/                                                                                                                                       all fuck")
+                chet(":punish/                                                                                                                                       me fuck")
                 wait(.51)
                 for i = 1, 128 do
                     chet(
-                        "rocket/                                                                                                                                       all all all fuck"
+                        "rocket/                                                                                                                                       me me me fuck"
                     )
                 end
             
