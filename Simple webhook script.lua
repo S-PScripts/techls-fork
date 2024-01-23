@@ -3,8 +3,8 @@ local player = game.Players.LocalPlayer
 local webhookcheck =
     is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or --[[ syn and "Synapse X"  or]]
     secure_load and "Sentinel" or
-    KRNL_LOADED and "Krnl/OxygenU" or
-  --[[  getexecutorname() and "Scriptware" or]]
+  --[[  KRNL_LOADED and "Krnl/OxygenU" or
+    getexecutorname() and "Scriptware" or]]
     fluxus.request() and "Fluxus"
 
 print(webhookcheck)
