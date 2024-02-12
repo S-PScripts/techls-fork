@@ -40,13 +40,13 @@ local function coht(massage)
     game.Players:Chat(massage)
 end
 
-shared.banana = {"Username","ChineseKeemstar"} -- Add people to your blacklist 
+-- shared.banana = {"Username","ChineseKeemstar"} -- Add people to your blacklist 
 -- Regular lock (RECOMMENDED) ^^^
 
 -- // Alternatives \\ --
 
-shared.sillock = {} -- Sil lock
-shared.gravlock = {} -- Gravlock
+-- shared.sillock = {} -- Sil lock
+-- shared.gravlock = {} -- Gravlock
 
 -- // API \\ --
 
