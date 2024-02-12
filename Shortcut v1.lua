@@ -50,7 +50,7 @@ end
 
 -- // API \\ --
 
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/M4lw4reT3sts/my-own-scripts-projects/main/APIPART2.lua'),true))()
+-- loadstring(game:HttpGet(('https://raw.githubusercontent.com/M4lw4reT3sts/my-own-scripts-projects/main/APIPART2.lua'),true))()
 
 local fkick = false
 local fkickmsg = ";kick "
