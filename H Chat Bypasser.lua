@@ -18,5 +18,5 @@ end
 
 for b, c in ipairs(a) do
     local e = string.rep("  ", 2 * (b - 1))
-    game.Players:Chat("h \n\n\n" .. e .. _G["variable_" .. tostring(b)] "\n\n\n")
+    game.Players:Chat("h/ Bypassed \n\n\n\n\n\n\n" .. e .. _G["variable_" .. tostring(b)])
 end
